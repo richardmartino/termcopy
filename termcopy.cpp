@@ -10,9 +10,7 @@ using namespace std;
 
 int main(int token, char* str[]){
 	cin >> *str;
-	for(int i=1;i<(int)(sizeof(*str));i++){
-	cout << *str[i];
-	}
+	cout << *str;
 }
 
 
