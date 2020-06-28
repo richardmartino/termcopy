@@ -8,10 +8,11 @@
 
 using namespace std;
 
-int main(){
-	
-	cout << "Hello World!";
-	return 0;
+int main(int token, char* str[]){
+	cin >> *str;
+	for(int i=1;i<(int)(sizeof(*str));i++){
+	cout << *str[i];
+	}
 }
 
 

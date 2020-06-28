@@ -2,4 +2,4 @@
 #by Richard Martino
 
 termcopy: termcopy.cpp
-	g++ -Wall -Wextra -Werror termcopy.cpp -o bin/termcopy.o
+	g++ -Wall -Wextra termcopy.cpp -o bin/termcopy
